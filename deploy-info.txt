@@ -1,0 +1,43 @@
+HOSTING OPTIONS FOR YOUR PITCH DECK:
+
+1. NETLIFY DROP (Easiest)
+   - Go to: https://app.netlify.com/drop
+   - Drag & drop index.html
+   - Get instant live URL
+
+2. GITHUB PAGES (Free, Custom Domain)
+   - Create GitHub repo
+   - Upload index.html
+   - Enable Pages in settings
+   - Get: username.github.io/repo-name
+
+3. VERCEL (Fast, Free)
+   - Go to: https://vercel.com
+   - Drag & drop or connect GitHub
+   - Auto-deploys
+
+4. SURGE.SH (Simple CLI)
+   - Install: npm install -g surge
+   - Run: surge
+   - Get instant URL
+
+5. CLOUDFLARE PAGES (Free, Fast)
+   - Go to: https://pages.cloudflare.com
+   - Connect repo or upload
+
+PDF CONVERSION OPTIONS:
+
+1. BROWSER PRINT (Easiest)
+   - Open index.html in Chrome
+   - Cmd+P (Mac) or Ctrl+P (Windows)
+   - Save as PDF
+   - Set margins to None, Background graphics ON
+
+2. ONLINE TOOLS
+   - HTML to PDF converters
+   - Print-friendly.com
+   - PDF24.org
+
+3. COMMAND LINE (Advanced)
+   - Use headless Chrome
+   - Puppeteer or Playwright
