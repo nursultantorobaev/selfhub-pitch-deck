@@ -216,6 +216,158 @@
             font-weight: 800;
             font-family: 'Poppins', sans-serif;
         }
+
+        /* Mobile Responsive Styles */
+        @media screen and (max-width: 768px) {
+            body {
+                gap: 40px;
+                padding: 20px 10px;
+            }
+
+            .slide-container {
+                width: 100%;
+                max-width: 100%;
+                height: auto;
+                min-height: auto;
+                padding: 30px 20px;
+                border-radius: 20px;
+                margin: 0 auto;
+            }
+
+            h1 {
+                font-size: 42px !important;
+                line-height: 1.2;
+            }
+
+            h2.slide-title {
+                font-size: 28px !important;
+                padding-left: 20px;
+                margin-bottom: 25px;
+                border-left-width: 6px;
+            }
+
+            .two-column {
+                grid-template-columns: 1fr !important;
+                gap: 30px !important;
+            }
+
+            .stat-grid {
+                grid-template-columns: 1fr !important;
+                gap: 15px;
+            }
+
+            .stat-card {
+                padding: 20px !important;
+            }
+
+            .stat-val {
+                font-size: 36px !important;
+            }
+
+            .pricing-grid {
+                grid-template-columns: 1fr !important;
+                gap: 20px;
+            }
+
+            .price-card.featured {
+                transform: scale(1) !important;
+            }
+
+            .team-grid {
+                grid-template-columns: 1fr !important;
+                gap: 12px;
+            }
+
+            .comp-table {
+                font-size: 12px;
+                display: block;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+
+            .comp-table th,
+            .comp-table td {
+                padding: 12px 8px;
+                font-size: 11px;
+            }
+
+            .problem-item {
+                padding: 15px !important;
+                gap: 15px;
+            }
+
+            .problem-item p {
+                font-size: 14px !important;
+            }
+
+            .feature-grid {
+                grid-template-columns: 1fr !important;
+                gap: 15px;
+            }
+
+            .market-stats {
+                grid-template-columns: 1fr !important;
+                gap: 15px;
+            }
+
+            .why-now-grid {
+                grid-template-columns: 1fr !important;
+                gap: 15px;
+            }
+
+            p {
+                font-size: 16px !important;
+            }
+
+            .contact-link {
+                font-size: 16px !important;
+            }
+
+            .slide-container::before,
+            .slide-container::after {
+                display: none;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            body {
+                gap: 30px;
+                padding: 15px 5px;
+            }
+
+            .slide-container {
+                padding: 20px 15px;
+                border-radius: 16px;
+            }
+
+            h1 {
+                font-size: 32px !important;
+            }
+
+            h2.slide-title {
+                font-size: 24px !important;
+                padding-left: 15px;
+                margin-bottom: 20px;
+            }
+
+            .stat-val {
+                font-size: 28px !important;
+            }
+
+            .price-val {
+                font-size: 36px !important;
+            }
+
+            .comp-table {
+                font-size: 10px;
+            }
+
+            .comp-table th,
+            .comp-table td {
+                padding: 8px 6px;
+                font-size: 10px;
+            }
+        }
     </style>
 </head>
 <body>
